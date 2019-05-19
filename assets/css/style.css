@@ -1,0 +1,95 @@
+
+
+/*---------------logo-index1-----------------------*/
+.logo{
+    background: url("../images/Monkees_red.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width:100%;
+    height:300px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    
+   
+}
+
+@media(min-width:992px){
+    .logo{
+        margin-top: 65px;
+    }
+}
+
+
+
+.bg-light {
+    background-color: transparent!important;
+    
+}
+.navbar-light .navbar-toggler{
+    border:none;
+}
+
+
+/*---------------logo-index2-----------------------*/
+.image{
+
+    background-image: url("https://static1.squarespace.com/static/583863c1e6f2e1216884123c/t/5a26b3f124a694f272e8be3d/1512495829597/Monkees_red.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height:200px;
+    margin-top: 35px
+}
+
+
+    
+/*---------------logo-index3-----------------------*/
+
+
+.jumbotron{
+    margin-top: 60px;
+    background-image: url("../images/Monkees_red.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: auto;
+    width:100%;
+   position: absolute;
+  
+   
+   
+    
+}
+/*---------------footer-----------------------*/
+footer{
+    background-color: #858181;
+    color: #FEF9F9;
+    min-height: 120px;
+}
+.social{
+    padding-bottom: 15px;
+}
+.social li a i{
+     font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding:12px 0;
+    border-radius: 50%;
+    background-color: #8f8f8f;
+    color: #fafafa;
+    line-height: 16px;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.social li a i:hover{
+    background:#E70E13;
+}
+#footer-details{
+    padding: 20px;
+}
