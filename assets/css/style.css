@@ -15,6 +15,21 @@
     
    
 }
+.logo2{
+   
+    background: url("../images/Monkees_red.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height:400px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    
+    
+   
+}
 
 @media(min-width:776px){
     .logo{
@@ -44,9 +59,10 @@
 .image{
 
     background-image: url("https://static1.squarespace.com/static/583863c1e6f2e1216884123c/t/5a26b3f124a694f272e8be3d/1512495829597/Monkees_red.jpg");
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-origin: content-box;
     width: 100%;
     height:200px;
     margin-top: 35px
@@ -149,7 +165,7 @@
     text-transform: uppercase;
 }
 
-/*---------------events-section-----------------------*/
+/*---------------events-section/events-page-----------------------*/
 .events-section{
     background-color:#858181; 
 }
@@ -174,7 +190,7 @@
     margin-bottom: 40px;
 }
 
-/*---------------events-form-----------------------*/
+/*---------------events-form/events-page-----------------------*/
 
 .center-form{
     margin: 0 auto;
@@ -207,6 +223,60 @@ button[type="submit"]{
         margin: 0 auto;
     }
 }
+/*---------------video-section/media-page-----------------------*/
+
+.media-heading{
+     background-color:#858181;
+    
+}
+
+.video-heading{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    color: #E70E13;
+    font-family: 'Fruktur', cursive;
+}
+.video-text{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.video-1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.video-2{
+    margin-bottom: 50px;
+    
+}
+@media(min-width:776px){
+    .media-video1,
+    .media-video2{
+        height: 400px;
+       
+       
+}
+
+    
+    
+    
+}
+/*---------------audio-section/media-page-----------------------*/
+.audios,.audio2 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+@media(min-width:768px){
+    .audio2{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
+
+
+
 
 /*---------------footer-----------------------*/
 footer{
@@ -244,6 +314,6 @@ footer{
     padding: 20px;
 
 }
-.center{
-    margin:0 auto;
-}
+
+
+
