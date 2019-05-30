@@ -28,7 +28,7 @@
 
 }
 .bg-light:hover{
-    background-color: rgb(255,255,255,0.6)!important;
+    background-color: rgb(255,255,255,0.7)!important;
 }
 
 .navbar-light .navbar-toggler{
@@ -37,7 +37,7 @@
 }
 
 .nav-item a{
-    color: black !important;
+    color: #858181 !important;
     margin-left: 20px;
     font-family: 
     'Gloria Hallelujah', cursive;
@@ -278,6 +278,7 @@ img:hover{
 }
 
 
+/*---------------tour-section/home-page-----------------------*/
 
 .main-background{
     height:auto;
@@ -293,11 +294,11 @@ img:hover{
 }
 
 
-.tours-heading1{
-   
-}
 .tours-text{
    padding-right:  20px;
     padding-left:  20px;
     font-family: 'Gloria Hallelujah', cursive;
+}
+.date{
+    font-weight: bold;
 }
