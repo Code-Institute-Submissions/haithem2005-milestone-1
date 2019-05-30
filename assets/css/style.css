@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Fruktur|Gloria+Hallelujah|Playball&display=swap');
-/*---------------logo-index1-----------------------*/
+/*---------------logo-index-----------------------*/
 .logo{
    
     background: url("../images/Monkees_red.jpg");
@@ -11,24 +11,6 @@
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    
-    
-   
-}
-.logo2{
-   
-    background: url("../images/Monkees_red.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    width:100%;
-    height:400px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    
-    
-   
 }
 
 @media(min-width:776px){
@@ -38,52 +20,36 @@
     }
 }
 
+/*---------------nav-bar-----------------------*/
 
 .bg-light {
-    background-color: transparent!important;
-    
-    
-    
+    background-color:transparent!important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
 }
+.bg-light:hover{
+    background-color: rgb(255,255,255,0.6)!important;
+}
+
 .navbar-light .navbar-toggler{
     border:none;
 
 }
 
 .nav-item a{
+    color: black !important;
+    margin-left: 20px;
+    font-family: 
+    'Gloria Hallelujah', cursive;
+    -webkit-transition:all 0.5s ease-in-out;
+    
+}
+.nav-item a:hover{
+    transform: translatex(20px);
     color: #E70E13 !important;
 }
 
 
-/*---------------logo-index2-----------------------*/
-.image{
-
-    background-image: url("https://static1.squarespace.com/static/583863c1e6f2e1216884123c/t/5a26b3f124a694f272e8be3d/1512495829597/Monkees_red.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-origin: content-box;
-    width: 100%;
-    height:200px;
-    margin-top: 35px
-}
-
-
-    
-/*---------------logo-index3-----------------------*/
-
-
-.jumbotron{
-    margin-top: 60px;
-    background-image: url("../images/Monkees_red.jpg");
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size:cover;
-    height: 400px;
-    width:100%;
-   position: absolute;
-  
-}
 
 /*---------------about-section-----------------------*/
 
@@ -101,25 +67,12 @@
 .about-section{
     height: 350px;
     background-color: #858181;
-    
-    
-   
 }
 .about-text{
-    
-    font-family: 'Gloria Hallelujah', cursive;
     color:#fafafa;
-    margin-right: 20px;
-    margin-left: 20px;
-   
 }
-.about-heading{
-    margin-top: 70px;
-    margin-bottom: 25px;
-    margin-left: 20px;
-    color:#E70E13;
-    font-family: 'Fruktur', cursive;
-    font-weight: 700;
+.about-heading.heading{
+    margin-top: 75px;
 }
 /*---------------news-section-----------------------*/
 
@@ -137,32 +90,26 @@
 .news-section{
     height: 400px;
     background-color:#CDC8C8;
-    
-    
-   
 }
 
-.news-text{
-    
-    margin-right: 20px;
-    margin-left: 20px;
-    font-family: 'Gloria Hallelujah', cursive;
-    
-}
-.news-heading{
-    margin-top: 40px;
-    margin-bottom: 25px;
-    margin-left: 20px;
-    color: #E70E13;
-    font-family: 'Fruktur', cursive;
-}
-.sub-text{
-    color: #E70E13;
-    
-}
+
 /*---------------general-----------------------*/
 .uppercase{
     text-transform: uppercase;
+}
+.heading {
+    margin:40px 20px 25px 20px;
+    color: #E70E13;
+    font-family: 'Fruktur', cursive;
+     font-weight: 700;
+}
+.sub-heading{
+    color: #E70E13;
+}
+.text{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 /*---------------events-section/events-page-----------------------*/
@@ -171,23 +118,11 @@
 }
 .events-text{
     color: #fafafa;
-    margin-right: 20px;
-    margin-left: 20px;
-    font-family: 'Gloria Hallelujah', cursive;
+    
 }
-.events-heading{
-    margin-top: 40px;
-    margin-bottom: 25px;
-    margin-left: 20px;
-    color: #E70E13;
-    font-family: 'Fruktur', cursive;
-}
+
 .events-span{
     color: #F8E56A;
-}
-.sub-text{
-    color: #E70E13;
-    margin-bottom: 40px;
 }
 
 /*---------------events-form/events-page-----------------------*/
@@ -206,14 +141,14 @@
 button[type="submit"]{
     margin-top: 10px;
     margin-bottom: 20px;
-    color:#858181;
+    color:#fafafa;
     background-color: #E70E13;   
     border: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .btn-secondary:hover{
     background-color: #858181 !important;
-    color: #E70E13 !important;
+    color:yellow!important;
 }
     
 @media(min-width:776px){
@@ -227,20 +162,6 @@ button[type="submit"]{
 
 .media-heading{
      background-color:#858181;
-    
-}
-
-.video-heading{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 20px;
-    color: #E70E13;
-    font-family: 'Fruktur', cursive;
-}
-.video-text{
-    margin-right: 20px;
-    margin-left: 20px;
-    font-family: 'Gloria Hallelujah', cursive;
 }
 .video-1{
     margin-top: 50px;
@@ -356,3 +277,27 @@ img:hover{
     transform: scale(1.3);
 }
 
+
+
+.main-background{
+    height:auto;
+    background:url(../images/monkees.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.tours-heading-main{
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 20px;
+}
+
+
+.tours-heading1{
+   
+}
+.tours-text{
+   padding-right:  20px;
+    padding-left:  20px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
