@@ -14,6 +14,8 @@ The project contain 4 pages(home, media, photo, event) also there is a links in 
 2. CSS
 3. BOOTSRTAP (4.3)
 4. FANCYBOX 3
+5. jQuery
+6. Google-fonts
 
 # Features
 
