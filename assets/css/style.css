@@ -52,17 +52,14 @@
 .bar-lg {
     background-color:transparent;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-
 }
 .bar-lg:hover{
     background-color: rgba(255,255,255,0.7);
 }
-
 .navbar-light .navbar-toggler{
     border:none;
 
 }
-
 .nav-item a{
     color: #4E4D4D !important;
     margin-left: 20px;
@@ -77,9 +74,6 @@
     transform: translatex(20px);
     color: #E70E13 !important;
 }
-
-
-
 /*---------------about-section/home-page-----------------------*/
 
 .about-image{
@@ -137,8 +131,6 @@
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 20px;
 }
-
-
 .tours-text{
    padding-right:  20px;
     padding-left:  20px;
@@ -147,8 +139,6 @@
 .date{
     font-weight: bold;
 }
-
-
 
 /*---------------events-section/events-page-----------------------*/
 .events-section{
@@ -242,9 +232,6 @@ button[type="submit"]{
     color: #E70E13;
     font-family: 'Fruktur', cursive;
 }
-
-
-
 .photos{
     background-color: #858181;
     margin-bottom: 50px;
@@ -258,9 +245,6 @@ button[type="submit"]{
     overflow: hidden;
     padding-bottom: 30px;
     margin: 0 auto;
-    
-    
-   
 }
 
 img{
